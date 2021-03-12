@@ -1,6 +1,20 @@
 # Windows 9.5
 
-## Step by Step Guide to Amerlioration
+## Part 1: Modifying the Vanilla Windows 10 ISO
+
+### 1. Download the Official Windows 10 ISO from Microsoft
+
+ - Head over to [Microsoft Software Downloads](https://www.microsoft.com/en-in/software-download/windows10ISO)
+ - Select English International and 64-Bit Version (Other languages might not work flawlessly) 
+
+### 2. Download [MSMG Toolkit](https://msmgtoolkit.in/download.html)
+
+  - Unzip the contents into a new `MSMG` folder on your desktop.
+  - Extract the contents of the Windows ISO to the `Desktop\MSMG\DVD\` 
+
+### TODO
+
+## Part 2: Guide to Amerlioration
 
 ### 1. Open PowerShell and clone this repository in the `C:\` directory. 
 
