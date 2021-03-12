@@ -20,22 +20,21 @@ Then, note down the drive letter of that Windows Installation Media (for eg. `G:
 Then type the Drive letter that you got from `Step 2`. If the drive letter is `G:\`, then type `G:`, and so on.
 
 
-### 4. Now boot into Linux (Live USB works fine too). Linux Mint/Pop OS, Ubuntu recommended.
+### 4. Now boot into Linux (Live USB works fine too). Linux Mint/Pop OS/Ubuntu recommended.
 
 > **NOTE: You must shutdown Windows by typing `shutdown /s /f /t 0` in Powershell/CMD to avoid Dirty NTFS Drive partition.**
 - Open up a terminal in the Windows Partition. 
- - Run `amelioration-second.sh` via bash and hit enter a bunch of times when asked a question, to go with the default options, as they work just fine.
+- Run `amelioration-second.sh` with root privileges and hit enter a bunch of times when asked a question, to go with the ideal default options.
 
 ```bash
-bash amelirate-second.sh
+sudo sh AME-Linux.sh
 ```
 
 ### 5. Finally, boot back into Windows  
 
-Open PowerShell (Admin), and run `amelioration-first.bat` again, but select `Option 2` to run Post-Amelioration script.
+Run `AME-Win.bat` as Administrator again and select `Option 2` to run Post-Amelioration script.
 
 This will finish the Amerlioration Process, and you can then reboot to see the changes.
-
 
 
 ## How to Update Windows after Amelioration?
