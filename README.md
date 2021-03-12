@@ -40,14 +40,16 @@ This will finish the Amerlioration Process, and you can then reboot to see the c
 ## How to Update Windows after Amelioration?
 
 ### 1. Do SSU (Service Stack) Update first and reboot
-https://www.catalog.update.microsoft.com/Search.aspx?q=Servicing%20Stack%20Update%20Windows%2010
+
+Go To: [Microsoft Service Stack Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=Servicing%20Stack%20Update%20Windows%2010)
 
 ### 2. Then do comulative update last and reboot
-https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20Windows%2010
 
-> Make sure you download the Same MONTH and Architecture (x64)
+Go To: [Microsoft Cumulative Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=Cumulative%20Update%20Windows%2010)
 
-### Steps to Extract and Install
+> Make sure you download the Same MONTH and Architecture (x64) for both of them
+
+### Then Extract and Install
 
 ```
 C:\> expand -F:* <.msu file> <dest>
