@@ -22,7 +22,7 @@ Then type the Drive letter that you got from `Step 2`. If the drive letter is `G
 
 ### 4. Now boot into Linux (Live USB works fine too). Linux Mint/Pop OS/Ubuntu recommended.
 
-> **NOTE: You must shutdown Windows by typing `shutdown /s /f /t 0` in Powershell/CMD to avoid Dirty NTFS Drive partition.**
+> **NOTE: You must shutdown Windows by typing `shutdown /s /f /t 0` in Powershell/CMD instead of Shutting Down normally, to avoid Dirty NTFS Drive Problems.**
 - Open up a terminal in the Windows Partition. 
 - Run `amelioration-second.sh` with root privileges and hit enter a bunch of times when asked a question, to go with the ideal default options.
 
