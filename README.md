@@ -16,6 +16,8 @@
 
 ## Part 2: Guide to Amerlioration
 
+Now that you have installed Windows 10 from the ISO that you just made, it's time to ameliorate it and make the experience as good as (or even better than) **Windows 7**
+
 ### 1. Open PowerShell and clone this repository in the `C:\` directory. 
 
 ```powershell
