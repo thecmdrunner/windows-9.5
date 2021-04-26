@@ -1,0 +1,1 @@
+- integrate [Win 10 Generic activator](https://gist.github.com/Dhanvesh/abcc26792f08755827bc2cd64c50ac3c) with some generic licence keys that microsoft happily accepts.
